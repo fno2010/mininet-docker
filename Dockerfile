@@ -1,4 +1,4 @@
-FROM debian
+FROM ubuntu
 MAINTAINER David Bainbridge <dbainbri@ciena.com>
 
 ENV DEBIAN_FRONTEND noninteractive
