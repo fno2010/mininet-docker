@@ -44,6 +44,9 @@ RUN \
     && chmod +x $MININET_INSTALLER \
     && ./$MININET_INSTALLER -nfv \
 
+# Link ovs-tsetcontroller to ovs-controller
+    && ln -s /usr/bin/ovs-testcontroller /usr/bin/ovs-controller \
+
 # Clean up source.
     && rm -rf /tmp/mininet \
               /tmp/openflow \
