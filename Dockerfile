@@ -24,6 +24,7 @@ RUN \
     curl \
     libtool \
     net-tools \
+    iperf3 \
     openssh-client \
     patch \
     vim \
@@ -42,7 +43,7 @@ RUN \
 
 # Proceed with the install.
     && chmod +x $MININET_INSTALLER \
-    && ./$MININET_INSTALLER -nfv \
+    && ./$MININET_INSTALLER $INSTALLER_SWITCHES \
 
 # Clean up source.
     && rm -rf /tmp/mininet \
