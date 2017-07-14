@@ -24,6 +24,8 @@ RUN \
     curl \
     libtool \
     net-tools \
+    iputils-ping \
+    iperf3 \
     openssh-client \
     patch \
     vim \
