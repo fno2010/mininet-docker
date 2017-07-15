@@ -27,6 +27,7 @@ RUN \
     iputils-ping \
     iperf3 \
     openssh-client \
+    xterm \
     patch \
     vim \
 
