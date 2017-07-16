@@ -26,6 +26,7 @@ RUN \
     net-tools \
     iputils-ping \
     iperf3 \
+    tcpdump \
     openssh-client \
     xterm \
     patch \
